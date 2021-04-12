@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  word-break:break-all;
+}
+main{
+  min-width: 80%;
+  max-width: 80%;
+  margin: 4rem auto;
+}
+h1{
+  font-size: 70px;
+}
+p{
+  text-align: justify;
+}
+h3{
+  color: #2079c7;
+  margin-bottom: 0.5rem;
+  margin-top: 4rem;
+}
+.title{
+  text-transform: capitalize;
+  margin-left: 8rem;
+  color: #ccc;
+}
+.job-title{
+  margin-bottom: 2rem;
+}
+.address{
+  display: flex;
+  gap:8rem;
+  flex-wrap: wrap;
+}
+.flex-1{
+  flex: 1;
+}
+.mb-5{
+  margin-bottom: 5rem;
+}
+.mt-1{
+  margin-top:0.5rem;
+}
+.font-bold{
+  font-weight: bolder;
+}
+.mt-3{
+  margin-top: 3rem;
+}
+ul{
+  padding-left: 21px;
+}
+.ul{
+  list-style-type: none;
+  padding: 0;
+}
+@media(max-width:800px){
+  .address{
+    display: block;
+  }
+  h1{
+    font-size: 35px;
+  }
+  .title{
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+}
